@@ -29,7 +29,7 @@
           >
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link"> Студия</a>
+              <a href="./index.html" class="site-nav__link">Студия</a>
             </li>
             <li class="site-nav__item">
               <a
@@ -43,6 +43,12 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="open-btn" data-menu-open-btn>
+          <svg width="40" height="40" class="mob-menu-open-icon">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+
         <ul class="contact-nav">
           <li class="contact-nav__item">
             <a href="mailto:info@devstudio.com" class="contact-nav__link">
@@ -61,6 +67,51 @@
             >
           </li>
         </ul>
+      </div>
+      <div class="backdrop is-hidden" data-menu>
+        <div class="mob-menu">
+          <button type="button" class="mob-menu-btn-close" data-menu-close-btn>
+            <span>
+              <svg width="40" height="40" class="mob-menu-close-icon">
+                <use href="./images/icons.svg#icon-mob-close-btn"></use>
+              </svg>
+            </span>
+          </button>
+          <ul class="mob-list">
+            <li class="mob-list__item">
+              <a href="./index.html" class="mob-list__link">Студия</a>
+            </li>
+            <li class="mob-list__item">
+              <a href="./portfolio.html" class="mob-list__link">Портфолио</a>
+            </li>
+
+            <li class="mob-list__item">
+              <a href="" class="mob-list__link">Контакты</a>
+            </li>
+          </ul>
+          <div class="mob-menu-contact">
+            <a href="tel:+380961111111" class="mob-menu-tel"
+              >+38 096 111 11 11</a
+            >
+            <a href="mailto:info@devstudio.com" class="mob-menu-mail"
+              >info@devstudio.com</a
+            >
+          </div>
+          <ul class="social-mob-list">
+            <li class="social-mob-list__item">
+              <a href="" class="social-mob-list__link">Instagram</a>
+            </li>
+            <li class="social-mob-list__item">
+              <a href="" class="social-mob-list__link">Twitter</a>
+            </li>
+            <li class="social-mob-list__item">
+              <a href="" class="social-mob-list__link">Facebook</a>
+            </li>
+            <li class="social-mob-list__item">
+              <a href="" class="social-mob-list__link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -550,5 +601,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

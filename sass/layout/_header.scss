@@ -153,12 +153,11 @@
   padding-left: 40px;
   padding-top: 48px;
   padding-bottom: 48px;
-  position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
   background-color: #ffffff;
-  position: relative;
+  position: fixed;
 }
 
 .mob-list__item {
