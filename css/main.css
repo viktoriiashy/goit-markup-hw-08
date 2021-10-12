@@ -662,6 +662,13 @@ body {
   letter-spacing: 0.06em;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: calc(60 / 44);
+  }
+}
+
 .hero-button {
   display: inline-block;
   margin: 0;
